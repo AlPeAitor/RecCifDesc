@@ -12,11 +12,7 @@ fun main() {
     var clave = "3"
     var textoCifrado = ""
     var salida = ""
-    //var aux = Prueba("nombre", "contraseña", "1", "clave")
-    var aux = Prueba("nombre", "prueba")
-    aux.printMsg()
 
-    println(clave)
     textoCifrado = cifrar(textoOriginal, clave)
     println(textoCifrado)
     salida = descifrar(textoCifrado, clave)
